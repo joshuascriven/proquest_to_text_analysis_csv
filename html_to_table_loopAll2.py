@@ -4,7 +4,7 @@
 # ## Notes
 #     - Some docs are not in English, even though this criterion was always specified for each database search.
 
-# In[1]:
+# In[2]:
 
 
 """
@@ -37,10 +37,6 @@ files = list()
 for filename in Path('.').glob('**/?[Pro]*.html'):
     files.append(filename) 
 files
-
-
-# In[2]:
-
 
 # import list of features to filter docs
 ftname = r"./features.txt"
